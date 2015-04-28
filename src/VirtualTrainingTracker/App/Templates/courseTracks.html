@@ -1,0 +1,18 @@
+﻿<div>
+	<h3>Status of Courses Tracked</h3>
+	<table class="table">
+		<tr>
+			<th>Course Title</th>
+			<th>Author</th>
+			<th>Completed?</th>
+		</tr>
+		<tr ng-repeat="track in vm.courses">
+			<td>{{track.courseTitle}}</td>
+			<td>{{track.author}}</td>
+			<td>
+				<span ng-show="track.isCompleted">Completed</span>
+				<button class="btn btn-link" style="padding: 0;" ng-show="!track.isCompleted" ng-click="vm.completeCourse(track.courseTrackerId)">Mark Completed</button>
+			</td>
+		</tr>
+	</table>
+</div>

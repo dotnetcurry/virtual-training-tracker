@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8B258F48-6B5C-4152-B71A-56D54EC468EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{166C6CF6-E5A6-4975-97F2-142FD72E3F9D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "VirtualTrainingTracker", "src\VirtualTrainingTracker\VirtualTrainingTracker.kproj", "{A6D36196-F334-4C8F-AE8B-C8D58C7D69B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6D36196-F334-4C8F-AE8B-C8D58C7D69B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D36196-F334-4C8F-AE8B-C8D58C7D69B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D36196-F334-4C8F-AE8B-C8D58C7D69B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D36196-F334-4C8F-AE8B-C8D58C7D69B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6D36196-F334-4C8F-AE8B-C8D58C7D69B2} = {8B258F48-6B5C-4152-B71A-56D54EC468EC}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+﻿<div class="col-md-3 rowmargin" style="height: 150px; margin-top: 5px; margin-bottom: 15px;" ng-repeat="course in vm.courses">
+	<div class="thumbnail">
+		<div class="caption"><strong>{{course.title}}</strong></div>
+		<div style="text-align:center;">by {{course.author}}</div>
+		<br />
+		<span class="right" style="margin-right: 9px;">{{course.duration}} hr</span>
+		<div class="left" ng-show="vm.isAuthenticated">
+			<button class="left btn" style="padding: 3px;" ng-click="vm.addTrack(course.courseId)" ng-show="!course.tracked">Watch Course</button>
+
+			<span class="left" ng-show="course.tracked && !course.tracked.isCompleted">Watching...</span>
+			<span class="left" ng-show="course.tracked && course.tracked.isCompleted">Watched</span>
+		</div>
+	</div>
+</div>
